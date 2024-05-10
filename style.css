@@ -1,0 +1,17 @@
+.grid-container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 10px;
+    width: 400px;
+}
+
+.box {
+    width:80px;
+    height:80px;
+    margin: 10px;
+    background-color:black
+}
+.darkMode {
+    background-color: #444040;
+  }
